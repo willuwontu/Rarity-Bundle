@@ -1,5 +1,7 @@
 # Rarity-Bundle
 
+![Rarity Spread](https://raw.githubusercontent.com/willuwontu/Rarity-Bundle/main/Rarity%20Bundle%20Spread.PNG)
+
 Adds the raritys Trinket, Scarce, Exotic, Epic, Mythical, and Divine
 updating the rarity list to be:
 
