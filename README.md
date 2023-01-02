@@ -16,24 +16,25 @@ updating the rarity list to be:
 8. Mythical
 9. Divine
 
+To provide inspiration to prospective modders, here's a set of generated description for each rarity.
 
 
-Trinket: Trinkets are basic, common items that can be easily obtained and are not particularly valuable. They may be used for basic tasks or as simple decorative items.
-
-Common: Common items are widely available and can be easily obtained. They may be used for basic tasks or as simple decorative items, but are not particularly valuable or sought after.
-
-Scarce: Scarce items are somewhat rare and may be difficult to obtain. They may have some value or utility, but are not as rare or valuable as the higher levels.
-
-Uncommon: Uncommon items are relatively rare and may be difficult to obtain. They may have some value or utility, and may be sought after by collectors or enthusiasts.
-
-Exotic: Exotic items are very rare and unusual. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
-
-Rare: Rare items are very rare and may be difficult to obtain. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
-
-Epic: Epic items are extremely rare and may be very difficult to obtain. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
-
-Legendary: Legendary items are the highest rarity level, indicating that they are extremely rare and may be extremely difficult to obtain. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
-
-Mythical: Mythical items are an even higher rarity level, indicating that they are extremely rare and may be extremely difficult to obtain. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
-
-Divine: Divine items are extremely rare and may be extremely difficult to obtain. They may have unique properties or abilities, and may be highly valued or sought after by collectors or enthusiasts.
+> Trinket - Trinkets are mundane items that can be found in any old chest. They offer small bonuses and are easily replaced.
+> 
+> Common - Common abilities can be found all over the place, but they aren't anything special.
+> 
+> Scarce - Scarce abilities are harder to come by, but they offer a little more power than common abilities.
+>
+> Uncommon - Uncommon abilities are not quite as common as their name suggests. They offer a noticeable boost in power.
+> 
+> Exotic - Exotic abilities are the stuff of legend. They are highly sought after and can turn the tide of battle in your favor.
+> 
+> Rare - Rare abilities are extremely hard to come by and are only possessed by a select few. They offer a significant increase in power.
+> 
+> Epic - Epic abilities are almost mythical in nature. They are extremely powerful and can change the course of the game.
+> 
+> Legendary - Legendary abilities are the stuff of legend. They are extremely rare and offer god-like power.
+> 
+> Mythical - Mythical abilities are the pinnacle of power. They are so rare that many people don't even believe they exist.
+> 
+> Divine - Divine abilities are gifted by the gods themselves. They offer power beyond measure and can bend the very fabric of reality.
