@@ -19,12 +19,6 @@
     <Reference Include="BepInEx">
       <HintPath>$(RoundsFolder)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
-    <Reference Include="MMHOOK_Assembly-CSharp">
-      <HintPath>$(RoundsFolder)\BepInEx\plugins\MMHOOK_Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="ModdingUtils">
-      <HintPath>$(RoundsFolder)\BepInEx\plugins\ModdingUtils.dll</HintPath>
-    </Reference>
     <Reference Include="RarityLib">
       <HintPath>$(RoundsFolder)\BepInEx\plugins\RarityLib.dll</HintPath>
     </Reference>
