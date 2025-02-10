@@ -2,7 +2,7 @@
 
 ![Rarity Spread](https://raw.githubusercontent.com/willuwontu/Rarity-Bundle/main/Rarity%20Bundle%20Spread.PNG)
 
-Adds the raritys Trinket, Scarce, Exotic, Epic, Mythical, and Divine
+Adds the raritys Trinket, Scarce, Exotic, Epic, Mythical, Divine and Unique.
 updating the rarity list to be:
 
 0. Trinket
@@ -15,6 +15,11 @@ updating the rarity list to be:
 7. Legendary
 8. Mythical
 9. Divine
+
+Unique being a special rarity. While it is a bit more common then Divine, it has some additional properties:
+- A player can only ever have 1 Unique card.
+- If one player has a Unique card, no other player can have that card.
+- Only one Unique card will ever show up in any given hand.
 
 To provide inspiration to prospective modders, here's a set of generated description for each rarity.
 

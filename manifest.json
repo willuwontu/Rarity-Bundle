@@ -1,6 +1,6 @@
 {
   "name": "RarityBundle",
-  "version_number": "0.0.0",
+  "version_number": "0.2.0",
   "website_url": "https://github.com/willuwontu/Rarity-Bundle",
   "description": "A small bundle of rarities for use by other mods",
   "dependencies": [
