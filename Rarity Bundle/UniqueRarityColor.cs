@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Rarity_Bundle {
+namespace RarityBundle {
 
     [Serializable]
     [HarmonyPatch(typeof(CardRarityColor), "Toggle")]
@@ -12,7 +12,7 @@ namespace Rarity_Bundle {
 
         private static bool Prefix(CardRarityColor __instance) {
             CardInfo card = __instance.GetComponentInParent<CardInfo>();
-            if (card == null || card.rarity != RarityBundle.RarityBundle.Unique || card.rarity == CardInfo.Rarity.Common) { //extra check incase rarity regestration failed some how.
+            if (card == null || card.rarity != RarityBundle.Unique || card.rarity == CardInfo.Rarity.Common) { //extra check incase rarity regestration failed some how.
                 return true;
             }
             __instance.gameObject.AddComponent<UniqueRarityColor>();
@@ -20,7 +20,7 @@ namespace Rarity_Bundle {
             componentInParent.toggleSelectionAction = (Action<bool>)Delegate.Remove(componentInParent.toggleSelectionAction, new Action<bool>(__instance.Toggle));
 
             Destroy( __instance);
-            __instance.GetComponent<Image>().color = RarityUtils.GetRarityData(RarityBundle.RarityBundle.Unique).color;
+            __instance.GetComponent<Image>().color = RarityUtils.GetRarityData(RarityBundle.Unique).color;
             return false;
         }
 
@@ -28,8 +28,8 @@ namespace Rarity_Bundle {
             Image image = GetComponent<Image>();
             CanvasRenderer renderer = GetComponent<CanvasRenderer>();
             if(image == null || renderer == null) return;
-            Color32 color = RarityUtils.GetRarityData(RarityBundle.RarityBundle.Unique).color;
-            Color32 colorOff = RarityUtils.GetRarityData(RarityBundle.RarityBundle.Unique).colorOff;
+            Color32 color = RarityUtils.GetRarityData(RarityBundle.Unique).color;
+            Color32 colorOff = RarityUtils.GetRarityData(RarityBundle.Unique).colorOff;
             if(renderer.GetColor() == Color.white) {
                 image.color= Color.white;
                 renderer.SetColor(colorOff);

@@ -12,7 +12,7 @@ namespace RarityBundle {
     [BepInPlugin(ModId, ModName, Version)]
 
     [BepInProcess("Rounds.exe")]
-    internal class RarityBundle : BaseUnityPlugin
+    public class RarityBundle : BaseUnityPlugin
     {
         private const string ModId = "com.CrazyCoders.Rounds.RarityBundle";
         private const string ModName = "RarityBundle";
