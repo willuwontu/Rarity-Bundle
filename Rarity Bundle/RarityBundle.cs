@@ -16,7 +16,7 @@ namespace RarityBundle {
     {
         private const string ModId = "com.CrazyCoders.Rounds.RarityBundle";
         private const string ModName = "RarityBundle";
-        public const string Version = "0.2.0"; // What version are we on (major.minor.patch)?
+        public const string Version = "0.2.1"; // What version are we on (major.minor.patch)?
 
         public static RarityBundle instance { get; private set; }
 
